@@ -1,0 +1,68 @@
+/* STRUTTURA LAYOUT */
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.upper-bar {
+  height: 10vh;
+  width: 100vw;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #000000;
+}
+
+.movies-container {
+  height: 90vh;
+  width: 100vw;
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  overflow-y: auto;
+
+  background-color: gray;
+}
+
+/* UTILITIES */
+
+.hide {
+  display: none;
+}
+
+/* BARRA RICERCA */
+
+.upper-bar h1 {
+  padding-left: 50px;
+
+  color: red;
+
+  font-size: 60px;
+}
+
+.upper-bar input {
+  margin-right: 50px;
+  padding: 5px;
+
+  font-size: 20px;
+
+  border-radius: 10px;
+}
+
+/* CORPO CENTRALE */
+
+.card {
+  height: 30vh;
+  width: 15vw;
+
+  margin: 25px 50px;
+
+  background-color: black;
+}
